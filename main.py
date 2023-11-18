@@ -111,7 +111,6 @@ while True:
     play_again = input(f"Do you want to {'play a game of Blackjack' if first_play_flag else 'play again'}? y/n: ").lower()
     if play_again != "y":
         clear()
-        print("Thank you for playing!")
         break
     else:
         play_blackjack(first_play=first_play_flag)  # Pass first_play flag
